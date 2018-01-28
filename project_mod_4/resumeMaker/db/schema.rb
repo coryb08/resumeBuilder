@@ -18,9 +18,10 @@ ActiveRecord::Schema.define(version: 20180117192524) do
   create_table "educations", force: :cascade do |t|
     t.string "school"
     t.string "location"
+    t.string "graduation_year"
     t.string "degree"
     t.string "major"
-    t.string "graduation_year"
+    t.string "year"
     t.bigint "resume_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
